@@ -1,0 +1,324 @@
+{
+  "posts": [
+    {
+      "id": "post1",
+      "user": {
+        "username": "john_doe",
+        "profile_pic": "https://randomuser.me/api/portraits/men/10.jpg"
+      },
+      "image_url": "https://picsum.photos/id/1015/500/500",
+      "caption": "Beautiful sunset at the beach 🌅",
+      "likes": 320,
+      "isLiked": true,
+      "comments": [
+        {
+          "username": "jane_doe",
+          "text": "Amazing view!"
+        },
+        {
+          "username": "alex23",
+          "text": "Where is this place?"
+        }
+      ],
+      "timestamp": "2025-06-05T09:24:00Z"
+    },
+    {
+      "id": "post2",
+      "user": {
+        "username": "travel_guru",
+        "profile_pic": "https://randomuser.me/api/portraits/men/32.jpg"
+      },
+      "image_url": "https://picsum.photos/id/1025/500/500",
+      "caption": "Wandering through the streets of Rome 🏛️",
+      "likes": 142,
+      "isLiked": false,
+      "comments": [
+        {
+          "username": "explorer_ella",
+          "text": "One of my favorite places!"
+        }
+      ],
+      "timestamp": "2025-06-04T17:12:00Z"
+    },
+    {
+      "id": "post3",
+      "user": {
+        "username": "foodie_queen",
+        "profile_pic": "https://randomuser.me/api/portraits/women/20.jpg"
+      },
+      "image_url": "https://picsum.photos/id/1043/500/500",
+      "caption": "Best ramen in Tokyo 🍜🔥",
+      "likes": 987,
+      "isLiked": true,
+      "comments": [],
+      "timestamp": "2025-06-03T13:45:00Z"
+    },
+    {
+      "id": "post4",
+      "user": {
+        "username": "art_lover",
+        "profile_pic": "https://randomuser.me/api/portraits/men/45.jpg"
+      },
+      "image_url": "https://picsum.photos/id/1003/500/500",
+      "caption": "Modern art museum visit 🎨",
+      "likes": 430,
+      "isLiked": false,
+      "comments": [
+        {
+          "username": "sketchy_guy",
+          "text": "Cool colors!"
+        }
+      ],
+      "timestamp": "2025-06-02T18:30:00Z"
+    },
+    {
+      "id": "post5",
+      "user": {
+        "username": "fitness_freak",
+        "profile_pic": "https://randomuser.me/api/portraits/men/70.jpg"
+      },
+      "image_url": "https://picsum.photos/id/1011/500/500",
+      "caption": "Morning workout grind 💪",
+      "likes": 521,
+      "isLiked": true,
+      "comments": [
+        {
+          "username": "gym_buddy",
+          "text": "Let’s gooo!"
+        }
+      ],
+      "timestamp": "2025-06-02T06:15:00Z"
+    },
+    {
+      "id": "post6",
+      "user": {
+        "username": "nature_nick",
+        "profile_pic": "https://randomuser.me/api/portraits/men/29.jpg"
+      },
+      "image_url": "https://picsum.photos/id/1002/500/500",
+      "caption": "Deep in the woods 🌲",
+      "likes": 225,
+      "isLiked": false,
+      "comments": [],
+      "timestamp": "2025-06-01T10:00:00Z"
+    },
+    {
+      "id": "post7",
+      "user": {
+        "username": "book_worm",
+        "profile_pic": "https://randomuser.me/api/portraits/women/65.jpg"
+      },
+      "image_url": "https://picsum.photos/id/1052/500/500",
+      "caption": "Cozy corner with a good book 📚☕",
+      "likes": 160,
+      "isLiked": true,
+      "comments": [
+        {
+          "username": "novel_lover",
+          "text": "Which book is that?"
+        }
+      ],
+      "timestamp": "2025-05-31T20:40:00Z"
+    },
+    {
+      "id": "post8",
+      "user": {
+        "username": "tech_gal",
+        "profile_pic": "https://randomuser.me/api/portraits/women/48.jpg"
+      },
+      "image_url": "https://picsum.photos/id/1039/500/500",
+      "caption": "My new desk setup 💻✨",
+      "likes": 654,
+      "isLiked": false,
+      "comments": [],
+      "timestamp": "2025-05-30T12:00:00Z"
+    },
+    {
+      "id": "post9",
+      "user": {
+        "username": "cat_person",
+        "profile_pic": "https://randomuser.me/api/portraits/women/14.jpg"
+      },
+      "image_url": "https://picsum.photos/id/1024/500/500",
+      "caption": "Lazy Sundays with my cat 🐱💤",
+      "likes": 730,
+      "isLiked": true,
+      "comments": [
+        {
+          "username": "pet_lover",
+          "text": "So adorable!!"
+        }
+      ],
+      "timestamp": "2025-05-29T15:20:00Z"
+    },
+    {
+      "id": "post10",
+      "user": {
+        "username": "street_snaps",
+        "profile_pic": "https://randomuser.me/api/portraits/men/53.jpg"
+      },
+      "image_url": "https://picsum.photos/id/1062/500/500",
+      "caption": "City lights and street vibes 🌃📸",
+      "likes": 412,
+      "isLiked": false,
+      "comments": [],
+      "timestamp": "2025-05-28T22:10:00Z"
+    }
+  ],
+  "suggestions": [
+    {
+      "id": "user1",
+      "username": "photography_pro",
+      "full_name": "Alex Lens",
+      "profile_pic": "https://randomuser.me/api/portraits/men/32.jpg",
+      "isFollowing": false
+    },
+    {
+      "id": "user2",
+      "username": "fitness_girl",
+      "full_name": "Sara Fit",
+      "profile_pic": "https://randomuser.me/api/portraits/women/65.jpg",
+      "isFollowing": false
+    },
+    {
+      "id": "user3",
+      "username": "code_master",
+      "full_name": "Dev Singh",
+      "profile_pic": "https://randomuser.me/api/portraits/men/74.jpg",
+      "isFollowing": true
+    },
+    {
+      "id": "user4",
+      "username": "plant_mom",
+      "full_name": "Emily Green",
+      "profile_pic": "https://randomuser.me/api/portraits/women/41.jpg",
+      "isFollowing": false
+    },
+    {
+      "id": "user5",
+      "username": "street_snapper",
+      "full_name": "Chris Wu",
+      "profile_pic": "https://randomuser.me/api/portraits/men/19.jpg",
+      "isFollowing": false
+    }
+  ],
+  "profile": {
+    "username": "jrah",
+    "profile_pic": "https://randomuser.me/api/portraits/men/10.jpg",
+    "id": "post1"
+  },
+  "stories": [
+    {
+      "id": "1",
+      "user": {
+        "username": "john_doe",
+        "profile_pic": "https://randomuser.me/api/portraits/men/10.jpg"
+      },
+      "image_url": "https://picsum.photos/id/1015/1080/1920"
+    },
+    {
+      "id": "2",
+      "user": {
+        "username": "travel_guru",
+        "profile_pic": "https://randomuser.me/api/portraits/men/32.jpg"
+      },
+      "image_url": "https://picsum.photos/id/1025/1080/1920"
+    },
+    {
+      "id": "3",
+      "user": {
+        "username": "foodie_queen",
+        "profile_pic": "https://randomuser.me/api/portraits/women/20.jpg"
+      },
+      "image_url": "https://picsum.photos/id/1043/1080/1920"
+    },
+    {
+      "id": "4",
+      "user": {
+        "username": "art_lover",
+        "profile_pic": "https://randomuser.me/api/portraits/men/45.jpg"
+      },
+      "image_url": "https://picsum.photos/id/1003/1080/1920"
+    },
+    {
+      "id": "5",
+      "user": {
+        "username": "fitness_freak",
+        "profile_pic": "https://randomuser.me/api/portraits/men/70.jpg"
+      },
+      "image_url": "https://picsum.photos/id/1011/1080/1920"
+    },
+    {
+      "id": "6",
+      "user": {
+        "username": "nature_nick",
+        "profile_pic": "https://randomuser.me/api/portraits/men/29.jpg"
+      },
+      "image_url": "https://picsum.photos/id/1002/1080/1920"
+    },
+    {
+      "id": "7",
+      "user": {
+        "username": "book_worm",
+        "profile_pic": "https://randomuser.me/api/portraits/women/65.jpg"
+      },
+      "image_url": "https://picsum.photos/id/1052/1080/1920"
+    },
+    {
+      "id": "8",
+      "user": {
+        "username": "tech_gal",
+        "profile_pic": "https://randomuser.me/api/portraits/women/48.jpg"
+      },
+      "image_url": "https://picsum.photos/id/1039/1080/1920"
+    },
+    {
+      "id": "9",
+      "user": {
+        "username": "cat_person",
+        "profile_pic": "https://randomuser.me/api/portraits/women/14.jpg"
+      },
+      "image_url": "https://picsum.photos/id/1024/1080/1920"
+    },
+    {
+      "id": "10",
+      "user": {
+        "username": "street_snaps",
+        "profile_pic": "https://randomuser.me/api/portraits/men/53.jpg"
+      },
+      "image_url": "https://picsum.photos/id/1062/1080/1920"
+    }
+  ],
+  "followers": [
+    {
+      "id": 1,
+      "username": "nature_nick",
+      "full_name": "Nick Woods",
+      "profile_pic": "https://randomuser.me/api/portraits/men/29.jpg"
+    },
+    {
+      "id": 2,
+      "username": "plant_mom",
+      "full_name": "Emily Green",
+      "profile_pic": "https://randomuser.me/api/portraits/women/41.jpg"
+    },
+    {
+      "id": 3,
+      "username": "book_worm",
+      "full_name": "Sophie Read",
+      "profile_pic": "https://randomuser.me/api/portraits/women/65.jpg"
+    },
+    {
+      "id": 4,
+      "username": "street_snaps",
+      "full_name": "Chris Lane",
+      "profile_pic": "https://randomuser.me/api/portraits/men/53.jpg"
+    },
+    {
+      "id": 5,
+      "username": "code_master",
+      "full_name": "Dev Singh",
+      "profile_pic": "https://randomuser.me/api/portraits/men/74.jpg"
+    }
+  ]
+}
