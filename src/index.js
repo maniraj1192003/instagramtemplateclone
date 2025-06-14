@@ -3,32 +3,29 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { createBrowserRouter,RouterProvider } from 'react-router-dom';
+import { createHashRouter, RouterProvider } from 'react-router-dom'; // changed from createBrowserRouter
 import Viewstory from './Viewstory';
 import Profile from './Profile';
 
-const router =createBrowserRouter(
-  [{
-    path:'/',
-    element:<App/>
+// Use createHashRouter for GitHub Pages
+const router = createHashRouter([
+  {
+    path: '/',
+    element: <App />
   },
   {
     path: '/stories/:id/:tot',
-    element:<Viewstory/>
+    element: <Viewstory />
   },
   {
     path: '/profile',
-    element:<Profile/>
+    element: <Profile />
   }
-]
-)
+]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
- <RouterProvider router={router}/>
+  <RouterProvider router={router} />
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
